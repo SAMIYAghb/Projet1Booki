@@ -44,7 +44,7 @@ li{
     margin-bottom: 2rem;
 }
 /* Header */
-header{
+nav{
     display: flex;
     justify-content: space-between; 
     align-items:center;
@@ -308,7 +308,6 @@ footer{
     background-color: #f2f2f2;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
     margin-top: 2rem;
     align-content: start; 
     padding:15px; 
@@ -316,12 +315,10 @@ footer{
 .box{
     display: flex;
     flex-direction: column;
+    width: 33%;
 }
 .box > a{
     padding: 15px 0;
-}
-.trasparent{
-    color: transparent;
 }
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -387,7 +384,7 @@ footer{
 /* Small devices (phones,
  /* Small devices (phones, less than 576px) */ 
  @media (max-width: 576px){
-    header{
+    nav{
         flex-direction: column;
     }
     ul {
@@ -428,5 +425,8 @@ footer{
     footer{
         flex-direction: column;
         align-items: start;
+    }
+    .box{
+        margin-bottom: 1rem;
     }
 }
