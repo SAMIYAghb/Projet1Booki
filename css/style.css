@@ -390,7 +390,7 @@ footer{
     ul {
         margin-top: 2rem;
       }
-    li > a.active::after {
+    li > a.active:hover::after {
     content: " ";
     position: absolute;
     width: 100%;
