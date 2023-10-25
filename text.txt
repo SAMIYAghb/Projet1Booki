@@ -4,6 +4,10 @@
     *on peut avoir plusieurs header dans un site web
 </header>
 
+<nav>
+    contient des liens vers d'autres pages ou un fraguement d'une autre page
+</nav>
+
 <article><section>
     ca regroupe les éléments qui ont la meme thématique
 <article><section>
@@ -23,6 +27,3 @@
     une section qui enferme du contenu tegentif relatif a un élément ;comme dans un e-commerce pour filtrer les couleurs , les tailles...etc
     on peux l'utiliser aussi pour mettre le contenu d'une publicité
 </aside>
-<nav>
-    
-</nav>
