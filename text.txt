@@ -1,0 +1,28 @@
+<header>
+    un élément <header> est généralement destiné à contenir l'en-tête de la section environnante (un élément <h1> à <h6>).
+    *represente une introduction ou un groupe d'aide ou du navigation,
+    *on peut avoir plusieurs header dans un site web
+</header>
+
+<article><section>
+    ca regroupe les éléments qui ont la meme thématique
+<article><section>
+
+<article>
+    represente un contenu autonome dans un site web,
+    je peux comprendre
+     le contenu d'un article on l'enlevant du site,
+     la notion d'aparthé et de focus
+</article>
+
+<section>
+    represente un contenu pas autonaume dans un site web
+</section>
+
+<aside>
+    une section qui enferme du contenu tegentif relatif a un élément ;comme dans un e-commerce pour filtrer les couleurs , les tailles...etc
+    on peux l'utiliser aussi pour mettre le contenu d'une publicité
+</aside>
+<nav>
+    
+</nav>
