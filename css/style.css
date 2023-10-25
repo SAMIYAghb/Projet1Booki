@@ -65,7 +65,7 @@ li > a.active{
     color: var(--main-color);
     position: relative;
 }
-li > a.active::after{
+li > a.active:hover::after{
     content:" ";
     position: absolute;
     width: 100%;
@@ -415,7 +415,10 @@ footer{
         flex-wrap: wrap;
         /* gap =<'row-gap'> <'column-gap'> */
         row-gap :1rem;
-    }
+    }  
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    } 
     .populaires-cards {
         flex-direction: column;
       }
