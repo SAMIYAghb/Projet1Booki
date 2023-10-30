@@ -408,7 +408,7 @@ footer{
     .search-icon > .fa-solid{       
         color: var(--main-bg-color)
     }
-    .h3{
+    .filt-title{
         width: 100%;
     }
     .filter{
