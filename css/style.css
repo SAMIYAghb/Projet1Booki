@@ -320,6 +320,10 @@ footer{
 .box > a{
     padding: 15px 0;
 }
+.foot-title{
+    font-size: 18px;
+    font-weight: 700;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
