@@ -158,7 +158,6 @@ button{
     background-color: var(--filter-bg-color);
 }
 .filt > i{
-    margin-right: 15px;
     font-size: 22px;
 }
 .filt > span {
@@ -444,5 +443,21 @@ footer{
     }
     .box{
         margin-bottom: 1rem;
+    }
+}
+@media (max-width: 320px){
+    button {
+        left: -23px;
+        padding: 5px;
+    }
+    .fa-location-dot {
+        padding: 10px;
+    }
+    input[type="text"] {
+        padding: 5px;
+    }
+    input::placeholder {
+        font-size: 12px;
+        font-weight: 600;
     }
 }
