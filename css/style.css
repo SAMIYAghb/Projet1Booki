@@ -325,6 +325,12 @@ footer{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .filt > i {
+        font-size: 15px;
+    }
+    .filt > span {
+        font-size: 13px;
+    }
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -358,16 +364,16 @@ footer{
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     .filt{
         padding: 10px;
     }
     .filt > i {
-        font-size: 18px;
+        font-size: 15px;
     }
     .filt > span {
-        font-size: 14px;
+        font-size: 13px;
     }
     /* ... */
     .hebergements-cards > a, .activities-cards > a{
