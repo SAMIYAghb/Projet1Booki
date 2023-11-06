@@ -108,14 +108,15 @@ form{
     border-radius:  15px 0 0 15px ;
 }
 input[type="text"]{
-    padding-left: 5px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     position: relative;
     left: -5px;
     border: 1px solid #dedede;
 }
 input::placeholder {
     color: black;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
     line-height: 21px;
 }
@@ -138,7 +139,9 @@ button{
     display: flex;
     align-items: center;  
     flex-wrap: nowrap;
-    margin: .7rem 0 1.8rem 0; 
+    /* margin: .7rem 0 1.8rem 0;  */
+    gap: 10px;
+    margin: 1rem 0 1.2rem 0 ;
 }
 .h3{
     font-size: 18px;
@@ -166,7 +169,7 @@ button{
 .infobar{
     display: flex;
     align-items: center;
-    margin-bottom: 1.8rem ; 
+    margin-bottom: 1.1rem ; 
 }
 .infobar > i{
     margin-right: 1rem;
@@ -323,7 +326,7 @@ footer{
     padding: 15px 0;
 }
 .foot-title{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 /* Le code ci-dessous correspond à la version responsive uniquement */
