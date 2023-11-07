@@ -367,7 +367,7 @@ footer{
         justify-content: space-between;
     }
     .populaires-cards a {
-        width: 30%;
+        width: 32.9%;        
     }
     .populaires-cards .card-title {
         font-size: 14px;
@@ -402,9 +402,21 @@ footer{
     .activities img{
         max-height: 200px;
     }
+    .activities img{
+        max-height: 141px;
+    }
 }
  /* Small devices (phones, less than 576px) */ 
  @media (max-width: 576px){
+    input[type="text"] {
+       
+        left: 0px;
+        width: 100%;
+        
+    }
+    button {
+   
+        left: -40px;}
     .main-container{
         padding: 0 20px; 
     }
@@ -479,12 +491,12 @@ footer{
     }
 }
 @media (max-width: 320px){
+   
     .main-container{
         padding: 0 10px; 
     }
-    button {
-        /* right: -55px; */
-        padding: 5px;
+    button {  
+        padding:.7rem;
     }
     .fa-location-dot {
         padding: 10px;
@@ -492,6 +504,7 @@ footer{
     input[type="text"] {
         padding: 5px;
         width: 80%;
+        border-radius:0 15px 15px 0 ;
     }
     input::placeholder {
         font-size: 12px;
