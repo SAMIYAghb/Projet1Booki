@@ -5,13 +5,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
-
+body {
+    display: flex;
+    justify-content: center;
+}
 .fa-solid {
     color: var(--main-color);
 }
@@ -21,11 +23,6 @@ p{
     line-height: 19px;
     letter-spacing: 0em;
 }
-body {
-    display: flex;
-    justify-content: center;
-}
-
 .main-container {
     width: 100%;
     max-width: 1440px;
