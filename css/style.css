@@ -373,6 +373,7 @@ footer{
 
 /* Small devices (tabelette, less than 768px) */
 @media (max-width: 767px) {
+    
     .filter{
         padding: 10px;
     }
@@ -410,9 +411,10 @@ footer{
     ul {
         margin-top: 2rem;
     }
-    .nav-link::after{
+    .nav-link::after{      
         top: 2rem;
     }
+
     button[type="submit"]{
         display: none;
     }
