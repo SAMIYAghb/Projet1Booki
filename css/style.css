@@ -1,5 +1,5 @@
 /* generel */
-* {
+*{
     font-family: 'Raleway', sans-serif;
     padding: 0;
     margin: 0;
@@ -453,26 +453,3 @@ footer{
         width:  max-content;
     }
 }
- /* Small devices (phones, less than 576px) */ 
-    .main-container{
-        padding: 0 10px; 
-    }
-    button {  
-        padding:.7rem;
-    }
-    .fa-location-dot {
-        padding: 10px;
-    }
-    input[type="text"] {
-        padding: 5px;
-        width: 80%;
-        border-radius:0 15px 15px 0 ;
-    }
-    input::placeholder {
-        font-size: 12px;
-        font-weight: 600;
-    }
-    .hebergements-and-populaires section {
-        padding: 10px;
-    }
-} */
